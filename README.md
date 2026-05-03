@@ -104,3 +104,7 @@ If any output field violates the contract, post-processor returns:
 - `confidence <= 0.5`
 - `evidence_refs = ["RULE_HALLUCINATION_GUARD_v1"]`
 
+
+### Screenshot
+<img width="886" height="266" alt="image" src="https://github.com/user-attachments/assets/ce282b01-3952-4595-b6ac-2752d8b47915" />
+
