@@ -1,0 +1,21 @@
+{
+  "input": {
+    "gap_type": "configuration",
+    "custom_field_count": 3,
+    "uses_user_exit": false,
+    "standard_scope_available": true,
+    "scope_item_active": false,
+    "fit_score": 0.69,
+    "complexity": 2
+  },
+  "output": {
+    "recommended_action": "ACTIVATE_SCOPE_ITEM",
+    "confidence": 0.651,
+    "rationale": "Required scope item is available and should be activated.",
+    "evidence_refs": [
+      "RULE_SCOPE_ITEM_NOT_ACTIVE_v1",
+      "PRECEDENT_UMBRELLA_ACTIVATE_2025"
+    ]
+  }
+}
+

@@ -1,0 +1,21 @@
+{
+  "input": {
+    "gap_type": "extension",
+    "custom_field_count": 9,
+    "uses_user_exit": false,
+    "standard_scope_available": false,
+    "scope_item_active": false,
+    "fit_score": 0.56,
+    "complexity": 4
+  },
+  "output": {
+    "recommended_action": "REDUCE_CUSTOM_FIELDS",
+    "confidence": 0.698,
+    "rationale": "Field count exceeds governed threshold; reduce custom fields before migration.",
+    "evidence_refs": [
+      "RULE_EXTRA_CUSTOM_FIELDS_v1",
+      "PRECEDENT_INITECH_FIELDS_2023"
+    ]
+  }
+}
+

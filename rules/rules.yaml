@@ -1,0 +1,71 @@
+{
+  "rules": [
+    {
+      "id": "RULE_EXTRA_CUSTOM_FIELDS_v1",
+      "action": "REDUCE_CUSTOM_FIELDS",
+      "description": "Custom field count exceeds approved threshold for a process.",
+      "rationale_template": "Field count exceeds governed threshold; reduce custom fields before migration."
+    },
+    {
+      "id": "RULE_STANDARD_SCOPE_MATCH_v1",
+      "action": "USE_STANDARD_SCOPE_ITEM",
+      "description": "A matching standard scope item already covers this requirement.",
+      "rationale_template": "A matching standard scope item exists and should be used instead of customization."
+    },
+    {
+      "id": "RULE_EXIT_BADI_MIGRATION_v2",
+      "action": "MIGRATE_USER_EXIT_TO_BADI",
+      "description": "Legacy user exits are unsupported in target clean-core design.",
+      "rationale_template": "Legacy user exits should be migrated to BAdI extension points."
+    },
+    {
+      "id": "RULE_SCOPE_ITEM_NOT_ACTIVE_v1",
+      "action": "ACTIVATE_SCOPE_ITEM",
+      "description": "Required scope item exists but is not currently activated.",
+      "rationale_template": "Required scope item is available and should be activated."
+    },
+    {
+      "id": "RULE_LOW_CONFIDENCE_FALLBACK_v1",
+      "action": "MANUAL_REVIEW",
+      "description": "Prediction confidence is below enterprise acceptance threshold.",
+      "rationale_template": "Confidence is below threshold and requires manual review."
+    },
+    {
+      "id": "RULE_UNKNOWN_GAP_TYPE_v1",
+      "action": "MANUAL_REVIEW",
+      "description": "Gap type is unknown or unsupported by current model coverage.",
+      "rationale_template": "Gap type is out of model coverage and requires manual review."
+    },
+    {
+      "id": "PRECEDENT_ACME_J45_2024",
+      "action": "MIGRATE_USER_EXIT_TO_BADI",
+      "description": "Precedent: ACME J45 migrated exits to BAdI with successful retrofit.",
+      "rationale_template": "Precedent ACME J45 confirms user-exit to BAdI migration for this pattern."
+    },
+    {
+      "id": "PRECEDENT_GLOBEX_SCOPE_2025",
+      "action": "USE_STANDARD_SCOPE_ITEM",
+      "description": "Precedent: Globex used standard scope item for equivalent process fit.",
+      "rationale_template": "Precedent Globex supports using standard scope item for this fit pattern."
+    },
+    {
+      "id": "PRECEDENT_INITECH_FIELDS_2023",
+      "action": "REDUCE_CUSTOM_FIELDS",
+      "description": "Precedent: Initech reduced custom fields to meet clean-core policy.",
+      "rationale_template": "Precedent Initech supports reducing custom fields for clean-core compliance."
+    },
+    {
+      "id": "PRECEDENT_UMBRELLA_ACTIVATE_2025",
+      "action": "ACTIVATE_SCOPE_ITEM",
+      "description": "Precedent: Umbrella activated dormant scope item to close process gap.",
+      "rationale_template": "Precedent Umbrella supports activating the existing scope item."
+    },
+    {
+      "id": "RULE_HALLUCINATION_GUARD_v1",
+      "action": "MANUAL_REVIEW",
+      "description": "Post-processor rejected unsupported action, evidence, or rationale.",
+      "rationale_template": "Output failed hallucination guard checks and was routed to manual review."
+    }
+  ]
+}
+

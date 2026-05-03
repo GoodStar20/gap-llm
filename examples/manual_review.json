@@ -1,0 +1,20 @@
+{
+  "input": {
+    "gap_type": "unknown",
+    "custom_field_count": 4,
+    "uses_user_exit": false,
+    "standard_scope_available": false,
+    "scope_item_active": false,
+    "fit_score": 0.41,
+    "complexity": 5
+  },
+  "output": {
+    "recommended_action": "MANUAL_REVIEW",
+    "confidence": 0.5,
+    "rationale": "Confidence is below threshold and requires manual review.",
+    "evidence_refs": [
+      "RULE_LOW_CONFIDENCE_FALLBACK_v1"
+    ]
+  }
+}
+

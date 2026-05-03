@@ -1,0 +1,21 @@
+{
+  "input": {
+    "gap_type": "extension",
+    "custom_field_count": 2,
+    "uses_user_exit": true,
+    "standard_scope_available": false,
+    "scope_item_active": false,
+    "fit_score": 0.61,
+    "complexity": 3
+  },
+  "output": {
+    "recommended_action": "MIGRATE_USER_EXIT_TO_BADI",
+    "confidence": 0.673,
+    "rationale": "Legacy user exits should be migrated to BAdI extension points.",
+    "evidence_refs": [
+      "RULE_EXIT_BADI_MIGRATION_v2",
+      "PRECEDENT_ACME_J45_2024"
+    ]
+  }
+}
+
